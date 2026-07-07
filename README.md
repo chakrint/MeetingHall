@@ -1,51 +1,55 @@
 # MeetingHall
 
-MeetingHall is an AI-powered collaborative platform designed to function as an **AI Boardroom**. Unlike traditional transcription tools that merely record dialogue, MeetingHall orchestrates a team of AI specialists to collaborate, debate, analyze, and reach consensus, providing actionable recommendations for complex decision-making.
+**MeetingHall** is a next-generation AI Boardroom platform. We are moving beyond simple meeting transcription. MeetingHall orchestrates a collaborative environment where multiple specialized AI agents discuss, review, challenge ideas, and reach a consensus to provide actionable recommendations.
 
----
+## Project Vision
+Meeting transcription is only the first stage. The true objective of MeetingHall is to simulate a professional boardroom. Instead of relying on a single AI assistant, the platform coordinates a team of AI specialists across various domains to collaborate and produce high-quality insights.
 
-## Vision
-MeetingHall aims to transcend single-AI assistant limitations. By simulating an **AI Boardroom**, the platform enables multi-agent cooperation, where specialized AI models (Software Engineering, Product Design, Music Production, Business Strategy, etc.) challenge ideas and refine outputs through a robust **Consensus Engine**.
+The platform natively supports AI specialists in:
+- Software Engineering
+- Product Design
+- Music Production
+- Creative Writing
+- Business Strategy
+- Research & Education
+- Technical Review
+- Enterprise Decision Making
 
 ## Project Origin
-MeetingHall is an original project developed under the **[Sounds of Thai](https://soundsofthai.com)** ecosystem. The architecture, collaborative workflow, and AI Boardroom concepts are designed to empower creators and decision-makers. It is not a fork of any existing repository.
+MeetingHall is an original project designed and developed under the **Sounds of Thai** ecosystem ([soundsofthai.com](https://soundsofthai.com)). The project vision, AI Boardroom concept, collaborative workflow, Consensus Engine, and overall architecture originate entirely from Sounds of Thai. **MeetingHall is not a fork of any existing repository.**
 
 ## Philosophy
-*   **Collaborative Intelligence:** Decisions are reached through multi-perspective analysis.
-*   **Originality:** Core systems (Collaboration, Consensus, and Timeline Engines) are built from the ground up.
-*   **Infrastructure Efficiency:** We leverage mature open-source tools for technical heavy-lifting, focusing our development on high-level AI orchestration.
+True intelligence is collaborative. By leveraging the **Consensus Engine**, MeetingHall ensures that every idea is challenged and refined before being presented to the user, eliminating the blind spots common in single-agent AI systems.
 
-## Features
-*   **AI Boardroom:** Dedicated environment for multi-agent interaction.
-*   **Consensus Engine:** A framework for AI agents to review, debate, and agree on outputs.
-*   **Timeline Engine:** Visualizing the evolution of discussions and decisions.
-*   **Transcript Engine:** Seamless conversion of voice to actionable data.
-*   **Knowledge Archive:** Preserving insights for long-term reference.
+## Core Features
+*   **AI Board Members:** Deploy specialized AI agents tailored to your meeting's specific needs.
+*   **AI Collaboration Engine:** Orchestrates agent turn-taking, debate, and context sharing.
+*   **Consensus Engine:** Evaluates multi-agent perspectives to reach a unified decision or recommendation.
+*   **Decision Engine:** Extracts actionable business intelligence from boardroom deliberations.
+*   **Knowledge Archive:** A secure, searchable database of past decisions and meeting contexts.
 
-## Workflow
-1.  **Audio Capture:** Ingesting raw meetings.
-2.  **Transcript Engine:** Processing audio via Whisper integration.
-3.  **AI Boardroom:** Agents analyze content based on their expertise.
-4.  **Consensus Engine:** Synthesis of agent discussions into a final recommendation.
-5.  **Export Engine:** Generating reports and outputs.
+## Open Source Strategy & Integration
+We believe in not reinventing the wheel for foundational technologies. MeetingHall integrates highly stable open-source infrastructure for basic tasks, primarily adapting modules from **Meetily** for:
+- Audio Capture
+- Whisper Integration
+- Transcript Engine
+- AI Provider Layer
+- Export Engine
+
+*Note: These modules serve strictly as underlying infrastructure. The AI Boardroom, Consensus Engine, and all core logic are original MeetingHall designs.*
 
 ## Technology Stack
-*   **Frontend:** React, Next.js, Tailwind CSS
-*   **Backend & Infrastructure:** Firebase, Node.js
-*   **AI Integration:** Ollama, Whisper.cpp
-*   **Desktop/Performance:** Tauri
-
-## Open Source Integration
-We integrate specific infrastructure modules from [Meetily] to handle foundational tasks such as Audio Capture, Transcript processing, and AI Provider management. All core logic remains exclusive to the MeetingHall architecture.
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend & Storage:** Node.js, Firebase (Cloud Mode), IndexedDB (Local Mode)
+- **Desktop Environment:** Tauri
+- **AI/ML Integration:** Whisper.cpp, Ollama
 
 ## Roadmap
-- [ ] Phase 0: Architecture & Documentation
-- [ ] Phase 1: Core System & Boardroom Prototype
-- [ ] Phase 2: Consensus Engine Implementation
-- [ ] Phase 3: Timeline & Knowledge Archive integration
+- [ ] **Phase 0:** Core Architecture & Documentation (Current)
+- [ ] **Phase 1:** Infrastructure Setup (Meetily Integration)
+- [ ] **Phase 2:** AI Collaboration Engine & Boardroom UX
+- [ ] **Phase 3:** Consensus Engine & Decision Engine
+- [ ] **Phase 4:** Knowledge Archive & Open Source Release
 
 ## License
-[To be determined / MIT]
-
----
-*Built with ❤️ by the Sounds of Thai team.*
+[License Type - e.g., MIT / Apache 2.0]
